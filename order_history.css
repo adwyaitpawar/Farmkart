@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    margin: 15px 0;
+    font-size: 2.2rem;
+}
+
+.orders-div {
+    line-height: 22px;
+    color: #555;
+    padding: 2rem 0;
+    background-color: #eeeeee6e;
+}
+
+.orders-table {
+    border-spacing: 0;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.orders-div legend {
+    color: black;
+    margin-left: 15%;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2% 0 1%;
+}
+
+.orders-div h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 80px auto;
+}
+
+.orders-table thead tr {
+    background-color: rgba(51, 51, 51, 0.1);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.orders-table tbody {
+    background-color: white;
+    vertical-align: middle;
+}
+
+.orders-table td {
+    padding: 10px;
+    line-height: 2;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.orders-table .btn {
+    color: #fff;
+    background-color: rgb(119, 232, 185);
+    border-color: #46b8da;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.features {
+    padding: 2.3% 5%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.features h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.features h6 {
+    margin: 10px 0;
+    font-size: 15px;
+    color: grey;
+}
+
+.feature {
+    display: flex;
+}
+
+
+.feature-div i {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.feature-div {
+    padding: 12px;
+}
+
+.footer-distributed {
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 5%;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-left img {
+    width: 30%;
+}
+
+.footer-distributed .footer-para {
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 400;
+}
+
+.footer-distributed .footer-copyright {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    color: #a0a1a1;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-right p {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #a0a1a1;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+}
+
+.footer-distributed .footer-icons i {
+    padding-top: 8.5px;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-center i {
+        margin-left: 0;
+    }
+
+}
